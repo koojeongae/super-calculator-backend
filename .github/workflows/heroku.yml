@@ -3,7 +3,7 @@ name: Heroku
 on:
   push:
     branches:
-      - "pr1"
+      - "main"
   workflow_dispatch:
 
 jobs:
@@ -14,5 +14,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: 8c6d7948-f39f-415d-9ea5-bd3d0a1263a1
-          heroku_app_name: 'super-calculator-backend'
+          heroku_app_name: 'super-calculator-ko'
           heroku_email: 'kooja@visang.com'
